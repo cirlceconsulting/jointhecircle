@@ -77,3 +77,13 @@ ul {
   .sticky-nav a:hover {
     color: #007bff; /* Replace with your desired link hover color */
   }
+
+  .site-footer {
+    background-color: #231f20;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
