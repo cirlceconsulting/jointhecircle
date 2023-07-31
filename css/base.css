@@ -50,4 +50,30 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.sticky-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Adjust the height as needed */
+  }
+  
+  .sticky-nav li {
+    margin-right: 20px; /* Adjust the spacing between navigation items */
+    color: #fff;
+  }
+  
+  .sticky-nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px; /* Adjust the link padding as needed */
+    transition: color 0.3s ease;
+  }
+  
+  .sticky-nav a:hover {
+    color: #007bff; /* Replace with your desired link hover color */
   }
