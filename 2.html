@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page</title>
+  <style>
+    /* Reset some default styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Define default font and colors */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Main container for the landing page */
+    .landing-page {
+      width: 100%;
+      max-width: 1200px; /* Adjust as needed */
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Sections */
+    .section {
+      padding: 40px 0;
+    }
+
+    /* Heading styles */
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    /* Link styles */
+    a {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+
+    /* Anchor link styles */
+    .anchor-link {
+      display: block;
+      position: relative;
+      top: -80px; /* Adjust to accommodate fixed header if you have one */
+      visibility: hidden;
+    }
+
+    /* Smooth scroll behavior for anchor links */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <div class="landing-page">
+    <div class="section" id="section-1">
+      <h1>Section 1</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#section-2">Scroll to Section 2</a>
+    </div>
+
+    <div class="section" id="section-2">
+      <h2>Section 2</h2>
+      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#section-1">Back to Section 1</a>
+      <a href="#section-3">Scroll to Section 3</a>
+    </div>
+
+    <div class="section" id="section-3">
+      <h3>Section 3</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <a href="#section-2">Back to Section 2</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -9,6 +9,8 @@ body {
 
 #circle_logo_white {
     height: 6vh;
+    display: block;
+    margin: 0 auto;
 }
 
 #circle {
@@ -43,3 +45,9 @@ body {
 #thanks {
     display: none;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
