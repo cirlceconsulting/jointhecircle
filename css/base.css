@@ -1,0 +1,45 @@
+body {
+    background-color: #231f20;
+}
+
+#banner {
+    width: 100%;
+    overflow: auto;
+}
+
+#circle_logo_white {
+    height: 6vh;
+}
+
+#circle {
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 80vh;
+    line-height: 500px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jointhecircle {
+    margin-top: 40vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thanks {
+    display: none;
+}
