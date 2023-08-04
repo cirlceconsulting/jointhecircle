@@ -106,3 +106,29 @@ ul {
     height: 500px;
     text-align: center;
   }
+
+  .word-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    /* position: fixed; */
+    bottom: 0;
+  }
+  
+  .word {
+    padding: 10px;
+  }
+
+  /* fonts */
+  @font-face {
+    font-family: 'PPTelegraf-Regular';
+    src:
+    url('fonts/PPTelegraf-Regular.woff') format('woff'),
+    url('fonts/PPTelegraf-Regular.ttf') format('truetype'),
+    url('fonts/PPTelegraf-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }

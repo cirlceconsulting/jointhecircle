@@ -1,0 +1,179 @@
+
+{% schema %}
+{
+  "name": "jtc",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Confirmation Message",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Confirmation Text",
+          "default": "Thanks for reaching out! We'll get back to you shortly."
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  @font-face {
+    font-family: 'Telegraf';
+    src: url('{{ 'PPTelegraf-Regular.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'PPTelegraf-Regular.woff' | asset_url }}') format('woff'),
+         url('{{ 'PPTelegraf-Regular.ttf' | asset_url }}') format('truetype'),
+         url('{{ 'PPTelegraf-Regular.otf' | asset_url }}') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .custom-font {
+    font-family: 'Telegraf', Arial, sans-serif;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #231F20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3em;
+  }
+
+  .section h2 {
+    color: #ffffff;
+    font-size: 2em;
+  }
+
+  .section h3 {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  .section p {
+    color: #ffffff;
+    font-size: 1.2em;
+  }
+
+  .services-column {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .service {
+    flex-basis: 30%;
+  }
+
+  .service h3 {
+    font-weight: bold;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+  }
+
+  .contact-form button {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #231F20;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1em;
+  }
+{% endstylesheet %}
+
+<div id="header" class="header custom-font">
+  <img src="{{ 'circle_logo_white.svg' | asset_url }}" alt="Logo" class="logo">
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</div>
+
+<div id="about" class="section">
+  <h2>About</h2>
+  <img src="about_image_placeholder.png" alt="About Us">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+</div>
+
+<div id="services" class="section">
+  <h2>Services</h2>
+  <div class="services-column">
+    <div class="service">
+      <h3>Service 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+    </div>
+    <div class="service">
+      <h3>Service 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+    </div>
+    <div class="service">
+      <h3>Service 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="section">
+  <h2>Contact</h2>
+  <form class="contact-form">
+    <input type="email" placeholder="Your email">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<div id="footer" class="footer custom-font">
+  Company A, 123 fun street
+</div>
