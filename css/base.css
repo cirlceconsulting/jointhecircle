@@ -1,15 +1,16 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 60px; /* height of sticky header */
 }
 
 body {
     background-color: #231f20;
 }
 
-#banner {
+/* #banner {
     width: 100%;
     overflow: auto;
-}
+} */
 
 #circle_logo_white {
     height: 6vh;
