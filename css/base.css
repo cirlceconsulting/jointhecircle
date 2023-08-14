@@ -59,6 +59,7 @@ ul {
 
 .sticky-nav {
     z-index: 1000;
+    font-family: 'PPTelegraf-Regular', Arial, sans-serif;
     position: sticky;
     top: 0;
     background-color: #231f20;
@@ -68,6 +69,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'PPTelegraf-Regular', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
