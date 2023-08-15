@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background-color: #231f20;
+    /* background-color: #231f20; */
+    font-family: 'PPTelegraf-Regular', Arial, sans-serif;
 }
 
 /* #banner {
@@ -28,7 +29,7 @@ body {
     line-height: 500px;
     border-radius: 50%;
     font-size: 50px;
-    color: #000;
+    color: #231f20;
     text-align: center;
     background: #fff;
 }
@@ -41,7 +42,7 @@ body {
 
 #jointhecircle {
     margin-top: 40vh;
-    color: #fff;
+    color: #231f20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +63,7 @@ ul {
     font-family: 'PPTelegraf-Regular', Arial, sans-serif;
     position: sticky;
     top: 0;
-    background-color: #231f20;
+    /* background-color: #231f20; */
 }
 
 .sticky-nav ul {
@@ -78,12 +79,12 @@ ul {
   
   .sticky-nav li {
     margin-right: 20px; /* Adjust the spacing between navigation items */
-    color: #fff;
+    color: #231f20;
   }
   
   .sticky-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #231f20;
     padding: 10px 15px; /* Adjust the link padding as needed */
     transition: color 0.3s ease;
   }
@@ -94,7 +95,7 @@ ul {
 
   .site-footer {
     background-color: #231f20;
-    color: #fff;
+    color: #231f20;
     padding: 20px 0;
     text-align: center;
     position: relative;
@@ -104,7 +105,7 @@ ul {
 
   .section {
     /* padding: 50vw; */
-    color: #fff;
+    color: #231f20;
     height: 500px;
     text-align: center;
   }
@@ -133,4 +134,9 @@ ul {
     url('fonts/PPTelegraf-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+  }
+
+  .swiper {
+    width: 600px;
+    height: 300px;
   }
