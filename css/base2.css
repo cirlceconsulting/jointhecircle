@@ -1,0 +1,194 @@
+/* Global Styles */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px; /* Height of sticky header */
+}
+
+body {
+  font-family: 'PPTelegraf-Regular', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+#circle_logo_white {
+  height: 6vh;
+  display: block;
+  margin: 0 auto;
+}
+
+#circle {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 80vh;
+  height: 80vh;
+  line-height: 500px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #231f20;
+  text-align: center;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#jointhecircle {
+  margin-top: 40vh;
+  color: #231f20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks {
+  display: none;
+}
+
+/* Navigation Styles */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sticky-nav {
+  z-index: 1000;
+  font-family: 'PPTelegraf-Regular', Arial, sans-serif;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.sticky-nav ul {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'PPTelegraf-Regular', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.sticky-nav li {
+  margin-right: 20px;
+  color: #231f20;
+}
+
+.sticky-nav a {
+  text-decoration: none;
+  color: #231f20;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.sticky-nav a:hover {
+  color: #007bff;
+}
+
+/* Footer Styles */
+
+.site-footer {
+  color: #231f20;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Section Styles */
+
+.section {
+  background-color: #d9d9d9;
+  margin: 2%;
+  color: #231f20;
+  text-align: center;
+  height: 500px;
+  padding: 20px;
+}
+
+.word-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.word {
+  padding: 10px;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'PPTelegraf-Regular';
+  src:
+    url('fonts/PPTelegraf-Regular.woff') format('woff'),
+    url('fonts/PPTelegraf-Regular.ttf') format('truetype'),
+    url('fonts/PPTelegraf-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Slider Styles */
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+/* Responsive Hamburger Menu */
+
+.mobile-menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-list.show {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin: 10px 0;
+  }
+}
