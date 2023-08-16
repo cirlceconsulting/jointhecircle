@@ -72,7 +72,7 @@ ul {
     padding: 0;
     list-style: none;
     font-family: 'PPTelegraf-Regular', Arial, sans-serif;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 60px; /* Adjust the height as needed */

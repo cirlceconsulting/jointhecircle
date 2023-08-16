@@ -20,7 +20,7 @@
         <div class="bar"></div>
       </div>
     <nav class="sticky-nav">
-        <ul>
+        <ul class="nav-list">
           <li><a href="#services">Services</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#team">Team</a></li>
@@ -41,31 +41,19 @@
 
 
     <div id="about" class="section">
-        Unlock the full potential of your customer experience
+        <div class="two-thirds">
+            Unlock the full potential of your customer experience. <br><br>
+            We are all about the future of customers and technology. The evolution of business is customer first and we deliver that belief with every project we undertake. <br><br>
+            Our botique approach allows us the flexibility and pragmatism to create bespoke solutions fast. <br><br>
+        </div>
+        <div class="one-third">
+                <img src="img/circle_logo_w.circle_white.png" width="300px">
+        </div>
+        
     </div>
 
     <div id="team" class="section">
-        Team
-        <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
+        How can we help? <br><br>
     </div>
 
     <div id="technology" class="section">
@@ -101,35 +89,13 @@
 
     
     <script src="scripts/script.js"></script>
-    <script>const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'vertical',
-        loop: true,
-      
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-        },
-      
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      });
-      
-      // JavaScript
-const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
-const navList = document.querySelector('.nav-list');
+    <script>
+        const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+        const navList = document.querySelector('.nav-list');
 
-mobileMenuIcon.addEventListener('click', () => {
-  navList.classList.toggle('show');
-});
-      </script>
+        mobileMenuIcon.addEventListener('click', () => {
+        navList.classList.toggle('show');
+        });
+    </script>
 </body>
 </html>

@@ -12,6 +12,9 @@ body {
 }
 
 /* Header Styles */
+#banner {
+  margin-top: 2%;
+}
 
 #circle_logo_white {
   height: 6vh;
@@ -109,6 +112,7 @@ ul {
 /* Section Styles */
 
 .section {
+  display: flex;
   background-color: #d9d9d9;
   margin: 2%;
   color: #231f20;
@@ -116,6 +120,18 @@ ul {
   height: 500px;
   padding: 20px;
 }
+.three-thirds {
+  flex: 3;
+}
+
+.two-thirds {
+  flex: 2;
+}
+
+.one-third {
+  flex: 1;
+}
+
 
 .word-container {
   display: flex;
