@@ -126,6 +126,12 @@ ul {
 
 .two-thirds {
   flex: 2;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* Center horizontally */
+  justify-content: space-between; /* Center vertically */
+  height: 300px; /* Set a height for the container */
 }
 
 .one-third {
@@ -133,19 +139,8 @@ ul {
 }
 
 
-.word-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  /* position: fixed; */
-  bottom: 0;
-}
 
-.word {
-  padding: 10px;
-}
+
 
 /* Fonts */
 
@@ -215,3 +210,26 @@ ul {
   }
 }
 
+/* services */
+.flex-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: space-between; /* Center vertically */
+  height: 300px; /* Set a height for the container */
+}
+
+.div1, .div2 {
+  /* width: 200px; */
+  /* height: 100px; */
+  /* background-color: #f2f2f2; */
+  text-align: center;
+  line-height: 100px;
+  max-width: 600px;
+}
+
+.word {
+  padding: 10px;
+}
