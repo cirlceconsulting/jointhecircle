@@ -164,8 +164,6 @@ ul {
   flex: 1;
 }
 
-
-
 /* team section styles */
 .circle-container {
   width: 150px; /* Set the width and height to create a circle */
@@ -192,6 +190,47 @@ ul {
   justify-content: space-between; /* Center vertically */
 }
 
+/* technology section styles */
+.flex-container-technology {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.div1-technology {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.div2-technology {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* connect section styles */
+.circle-container-connect {
+  width: 150px; /* Set the width and height to create a circle */
+  height: 150px;
+  border-radius: 50%; /* Make it circular using half of the width/height */
+  background-color: #FFFAFA; /* Background color for the circle */
+  margin: 20px;
+  display: flex;
+  align-items: center; /* Center horizontally */
+  justify-content: right; /* Center vertically */
+  padding: 4px;
+  color: #4F4747;
+}
+
+.circle-text-connect {
+  text-align: center; /* Center the text within the circle */
+  margin: 0; /* Remove default margin from the paragraph */
+  font-size: 20px;
+}
 
 /* Fonts */
 
