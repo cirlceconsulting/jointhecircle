@@ -204,12 +204,10 @@ ul {
 .div1-technology {
   flex: 1;
   padding: 20px;
-  border: 1px solid #ccc;
 }
 .div2-technology {
   flex: 1;
   padding: 20px;
-  border: 1px solid #ccc;
 }
 
 /* connect section styles */
