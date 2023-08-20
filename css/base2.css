@@ -202,9 +202,16 @@ ul {
 
   .nav-list.show {
     display: flex;
+    top: auto;
+    height: fit-content;
   }
 
   .nav-list li {
     margin: 10px 0;
   }
+
+  .sticky-nav ul {
+    display: none;
+  }
 }
+
