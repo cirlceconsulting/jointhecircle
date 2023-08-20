@@ -111,6 +111,31 @@ ul {
 
 /* Section Styles */
 
+/* services section styles */
+.flex-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: space-between; /* Center vertically */
+  height: 300px; /* Set a height for the container */
+}
+
+.div1, .div2 {
+  /* width: 200px; */
+  /* height: 100px; */
+  /* background-color: #f2f2f2; */
+  text-align: center;
+  line-height: 100px;
+  max-width: 600px;
+}
+
+.word {
+  padding: 10px;
+}
+
+/* about section styles */
 .section {
   display: flex;
   background-color: #d9d9d9;
@@ -141,6 +166,29 @@ ul {
 
 
 
+/* team section styles */
+.circle-container {
+  width: 150px; /* Set the width and height to create a circle */
+  height: 150px;
+  border-radius: 50%; /* Make it circular using half of the width/height */
+  background-color: #f2f2f2; /* Background color for the circle */
+  margin: 20px;
+  display: flex;
+  align-items: center; /* Center horizontally */
+  justify-content: right; /* Center vertically */
+  padding: 4px;
+}
+
+.circle-text {
+  text-align: center; /* Center the text within the circle */
+  margin: 0; /* Remove default margin from the paragraph */
+}
+
+.div2-team {
+  display: flex;
+  align-items: center; /* Center horizontally */
+  justify-content: space-between; /* Center vertically */
+}
 
 
 /* Fonts */
@@ -211,26 +259,3 @@ ul {
   }
 }
 
-/* services */
-.flex-container {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center horizontally */
-  justify-content: space-between; /* Center vertically */
-  height: 300px; /* Set a height for the container */
-}
-
-.div1, .div2 {
-  /* width: 200px; */
-  /* height: 100px; */
-  /* background-color: #f2f2f2; */
-  text-align: center;
-  line-height: 100px;
-  max-width: 600px;
-}
-
-.word {
-  padding: 10px;
-}
