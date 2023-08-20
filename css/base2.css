@@ -171,17 +171,19 @@ ul {
   width: 150px; /* Set the width and height to create a circle */
   height: 150px;
   border-radius: 50%; /* Make it circular using half of the width/height */
-  background-color: #f2f2f2; /* Background color for the circle */
+  background-color: #4F4747; /* Background color for the circle */
   margin: 20px;
   display: flex;
   align-items: center; /* Center horizontally */
   justify-content: right; /* Center vertically */
   padding: 4px;
+  color: #d9d9d9;
 }
 
 .circle-text {
   text-align: center; /* Center the text within the circle */
   margin: 0; /* Remove default margin from the paragraph */
+  font-size: 20px;
 }
 
 .div2-team {
